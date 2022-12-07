@@ -1,0 +1,35 @@
+{
+	"name": "create-avalanche-dapp",
+	"version": "0.1.10",
+	"keywords": [
+		"create-avalanche-dapp",
+		"create avalanche dapp",
+		"boilerplate",
+		"avalanche"
+	],
+	"scripts": {
+		"dev": "nodemon bin/cli.js",
+		"lint": "eslint . --ext .ts && yarn prettier --write .",
+		"start": "node bin/cli.js"
+	},
+	"bin": {
+		"create-avalanche-dapp": "./bin/cli.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"cli-progress": "^3.11.2",
+		"dotenv": "^16.0.3",
+		"fs-extra": "^10.1.0",
+		"prompts": "^2.4.2",
+		"yargs": "^17.6.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anukulpandey/create-avalanche-dapp.git"
+	},
+	"homepage": "https://github.com/anukulpandey/create-avalanche-dapp/blob/main/README.md",
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
